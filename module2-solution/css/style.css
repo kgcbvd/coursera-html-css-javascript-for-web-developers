@@ -7,12 +7,47 @@ h1 {
     text-align: center;
 }
 
+h2 {
+    width: 33%;
+    display: inline-block;
+    text-align: center;
+    position: absolute;
+    right: -1px;
+    margin-top: 0;
+    margin-bottom: 0;
+    border: 1px solid black;
+}
+
+h2.python {
+    background-color: aqua;
+}
+
+h2.ruby {
+    background-color: coral;
+}
+
+h2.perl {
+    background-color: #795da3;
+}
+
 .row {
     width: 100%;
 }
 
-section {
+p {
+    margin-top: 35px;
+}
 
+section {
+    background-color: silver;
+    border: 1px solid black;
+    position: relative;
+    min-height: 170px;
+    margin-right: 15px;
+    margin-left: 15px;
+    margin-bottom: 15px;
+    padding: 10px;
+    padding-top: 0;
 }
 
 @media (min-width: 992px) {
