@@ -1,15 +1,18 @@
+
+* {
+    box-sizing: border-box;
+}
 body {
     font-size: 16px;
     color: black;
-    background-color: silver;
     font-family: 'Oxygen', sans-serif;
 }
 
 /** HEADER **/
 #header-nav {
-    background-color: #159957;
     border-radius: 0;
     border: 0;
+    background-color: #159957;
 }
 
 .navbar-brand {
@@ -17,9 +20,6 @@ body {
     position: absolute;
     float: left;
     padding-left: 0;
-}
-
-.navbar-brand h1 {
     font-family: 'Lora', serif;
     color: black;
     font-size: 1.5em;
@@ -43,20 +43,17 @@ body {
     margin-right: 15px;
 }
 
-/*
+hr {
+    margin-bottom: 0;
+    margin-top: 0;
+}
+
 #nav-list {
     margin-top: 0;
-    border: 1px solid black;
     background-color: white;
 }
-#nav-list li {
-    color: black;
-    text-align: center;
-    border: 1px solid black;
+
+#main-content {
+    background-color: silver;
+    margin-top: 30px;
 }
-#nav-list a:hover {
-    background: #E7E7E7;
-}
-#nav-list a span {
-    font-size: 1.8em;
-}*/
